@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "789310757059",
+    "project_id": "multivendorapp-39fb0",
+    "storage_bucket": "multivendorapp-39fb0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789310757059:android:94af1c702179ed3ef9ea76",
+        "android_client_info": {
+          "package_name": "com.kingpinmultivendor.multivendorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789310757059-h374hdsg89kofmsggq00o40bvlmijl5a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kingpinmultivendor.multivendorapp",
+            "certificate_hash": "a31ec109a74d36b4a599a90e365bd65b8a88030e"
+          }
+        },
+        {
+          "client_id": "789310757059-lg81bec1afv1dtljtdij9r9og7rcej5k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE2nSi856ZhuErx4tepO-f5yXh0QdcUdg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789310757059-lg81bec1afv1dtljtdij9r9og7rcej5k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "789310757059-n99f5vq5j4fvh5aot105mj826hi1mf3p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kingpinmultivendor.multivendorapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

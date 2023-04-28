@@ -18,7 +18,7 @@ class MainScreen extends StatefulWidget {
 class _MainScreenState extends State<MainScreen> {
   int _pageIndex = 0;
 
-  List<Widget> _pages = [
+  final List<Widget> _pages = const [
     HomeScreen(),
     CategoryScreen(),
     StoreScreen(),
@@ -31,7 +31,8 @@ class _MainScreenState extends State<MainScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       bottomNavigationBar: BottomNavigationBar(
-        // type: BottomNavigationBarType.fixed,
+        showUnselectedLabels: true,
+        type: BottomNavigationBarType.fixed,
         currentIndex: _pageIndex,
         onTap: (value) {
           setState(() {
